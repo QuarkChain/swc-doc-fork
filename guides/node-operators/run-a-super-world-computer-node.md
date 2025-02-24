@@ -36,7 +36,7 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
 
 ### Steps
 
-1. Follow the following steps to build a node. The steps are basically the same as in [Optimism's documentation](https://docs.optimism.io/builders/node-operators/tutorials/node-from-source), the only difference is that here we use the `beta_testnet` branch of both [our optimism fork](https://github.com/ethstorage/optimism/tree/beta_testnet) and [our op-geth fork](https://github.com/ethstorage/op-geth/tree/beta_testnet) instead.
+1. Follow the following steps to build a node. The steps are basically the same as in [Optimism's documentation](https://docs.optimism.io/builders/node-operators/tutorials/node-from-source), the only difference is that here we use the `beta_testnet` branch of both [our optimism fork](https://github.com/QuarkChain/optimism/tree/beta_testnet) and [our op-geth fork](https://github.com/QuarkChain/op-geth/tree/beta_testnet) instead.
 
 - 1.1 Build `op-geth`
     ```bash
