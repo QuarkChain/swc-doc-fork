@@ -12,22 +12,22 @@ Hardware requirements for SWC testnet nodes can vary depending on the type of no
 
 ## Software dependencies
 
-| Dependency                                                    | Version  | Version Check Command |
-| ------------------------------------------------------------- | -------- | --------------------- |
-| [git](https://git-scm.com/)                                   | `^2`     | `git --version`       |
-| [go](https://go.dev/)                                         | `^1.21`  | `go version`          |
-| [make](https://linux.die.net/man/1/make)                      | `^3`     | `make --version`      |
-| [just](https://just.systems/man/en/packages.html)             | `^1.34`  | `just --version`      |
+| Dependency                                        | Version | Version Check Command |
+| ------------------------------------------------- | ------- | --------------------- |
+| [git](https://git-scm.com/)                       | `^2`    | `git --version`       |
+| [go](https://go.dev/)                             | `^1.21` | `go version`          |
+| [make](https://linux.die.net/man/1/make)          | `^3`    | `make --version`      |
+| [just](https://just.systems/man/en/packages.html) | `^1.34` | `just --version`      |
 
 ## Sync modes
 
 For full nodes, the following configurations are available ([explanation](https://docs.optimism.io/operators/node-operators/management/snap-sync#enable-snap-sync-for-your-node)):
 
-|                        |`op-node`(CL)                                  | `op-geth`(EL)                       |
-|--                      |--                                         |--                               |
-|Full nodes EL snap sync |`--syncmode=execution-layer (not default)` | `--syncmode=snap (default)`     |
-|Full nodes EL full sync |`--syncmode=execution-layer (not default)` | `--syncmode=full (not default)`                                             |
-|Full nodes CL sync      |`--syncmode=consensus-layer (default)`     | `--syncmode=full (not default)` |
+|                         | `op-node`(CL)                              | `op-geth`(EL)                   |
+| ----------------------- | ------------------------------------------ | ------------------------------- |
+| Full nodes EL snap sync | `--syncmode=execution-layer (not default)` | `--syncmode=snap (default)`     |
+| Full nodes EL full sync | `--syncmode=execution-layer (not default)` | `--syncmode=full (not default)` |
+| Full nodes CL sync      | `--syncmode=consensus-layer (default)`     | `--syncmode=full (not default)` |
 
 For archive nodes, please add `--gcmode=archive` to `op-geth`.
 
@@ -40,12 +40,12 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
 
 - 1.1 Build `op-geth`
     ```bash
-    git clone -b beta_testnet https://github.com/ethstorage/op-geth.git
+    git clone -b beta_testnet https://github.com/QuarkChain/op-geth.git
     pushd op-geth && make geth && popd
     ```
 - 1.2 Build `op-node`
     ```bash
-    git clone -b beta_testnet https://github.com/ethstorage/optimism.git
+    git clone -b beta_testnet https://github.com/QuarkChain/optimism.git
     pushd optimism && make op-node && popd
     ```
 
@@ -58,7 +58,7 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
 
         cd op-geth
         # prepare beta_testnet_genesis.json
-        curl -LO https://raw.githubusercontent.com/ethstorage/pm/main/L2/assets/beta_testnet_genesis.json
+        curl -LO https://raw.githubusercontent.com/QuarkChain/pm/main/L2/assets/beta_testnet_genesis.json
         ./build/bin/geth init --datadir=datadir --state.scheme hash beta_testnet_genesis.json
 
         openssl rand -hex 32 > jwt.txt
@@ -84,7 +84,7 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
         export L1_RPC_URL=http://88.99.30.186:8545
         export L1_BEACON_URL=http://88.99.30.186:3500
         # prepare beta_testnet_rollup.json
-        curl -LO https://raw.githubusercontent.com/ethstorage/pm/main/L2/assets/beta_testnet_rollup.json
+        curl -LO https://raw.githubusercontent.com/QuarkChain/pm/main/L2/assets/beta_testnet_rollup.json
 
         mkdir safedb
         # Ensure to replace --p2p.static with the sequencer's address.
