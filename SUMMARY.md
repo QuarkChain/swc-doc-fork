@@ -11,6 +11,7 @@
 * [Inbox Contract](core-concepts/inbox-contract.md)
 * [L2 Blob](core-concepts/l2-blob.md)
 * [web3://](core-concepts/web3url.md)
+* [L1 Header Hash History](core-concepts/l1_header_hash_history.md)
 <!--* * [Data Availability](core-concepts/data-availability.md)-->
 
 ## Guides
