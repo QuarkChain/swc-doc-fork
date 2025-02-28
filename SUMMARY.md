@@ -19,6 +19,7 @@
 * App Developers
   * [Receive tokens](guides/app-developers/receive-tokens.md)
   * [Bridge tokens](guides/app-developers/bridge-tokens.md)
+  * [EthStorage Usage Guide](guides/app-developers/es-usage-guide.md)
 * Node Operators
   * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
   * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
