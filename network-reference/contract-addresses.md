@@ -4,6 +4,7 @@
 
 ```json
 {
+    "customGasToken": "0xe6ABD81D16a20606a661D4e075cdE5734AB62519",
     "superchainDeployment": {
       "proxyAdminAddress": "0xf0e84441f20cdece7c8677a43cd76c5357604ea5",
       "superchainConfigProxyAddress": "0x1f3cc237822e4a96e36aab29483a69866108518c",
