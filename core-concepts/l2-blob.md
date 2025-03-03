@@ -30,7 +30,7 @@ also sending payments (financial) to other users within the same application.
 ## How It Works
 The following diagram illustrates the transaction data flow for a hybrid DA L2:
 
-<img src="https://0x1fd7ca75e5495a1f1635561297a2c90c27e7635f.3336.w3link.io/L2-BLOB.png" alt="Alt Text" width="600">
+<img src="/assets/L2-BLOB.png" alt="Alt Text" width="600">
 
 This hybrid approach provides a versatile, cost-effective solution for data availability across diverse applications on L2, supporting Ethereum’s ongoing scalability efforts.
 
