@@ -70,7 +70,7 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
 
 3. Setup `op-node`:
 
-    > ⚠️ The `op-node` RPC should not be exposed publicly. If left exposed, it could accidentally expose admin controls to the public internet. 
+    > ⚠️ The `op-node` admin RPC should not be exposed publicly. If left exposed, it could accidentally expose admin controls to the public internet. 
 
     > Sync mode is set to `--syncmode=execution-layer` to enable snap sync.
 

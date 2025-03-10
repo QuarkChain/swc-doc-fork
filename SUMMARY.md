@@ -23,6 +23,7 @@
 * Node Operators
   * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
   * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
+  * [Run op-challenger](guides/node-operators/op-challenger.md)
 
 ## Network Reference
 
