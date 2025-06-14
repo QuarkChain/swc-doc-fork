@@ -81,8 +81,8 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
         cd optimism/op-node
 
         export L1_RPC_KIND=basic
-        export L1_RPC_URL=http://88.99.30.186:8545
-        export L1_BEACON_URL=http://88.99.30.186:3500
+        export L1_RPC_URL=http://65.108.230.142:8545
+        export L1_BEACON_URL=http://65.108.230.142:3500
         # prepare beta_testnet_rollup.json
         curl -LO https://raw.githubusercontent.com/QuarkChain/pm/main/L2/assets/beta_testnet_rollup.json
 
@@ -141,8 +141,8 @@ For archive nodes, please add `--gcmode=archive` to `op-geth`.
         # prepare devnet_rollup.json
         curl -LO https://raw.githubusercontent.com/ethstorage/pm/main/L2/assets/devnet_rollup.json
         export L1_RPC_KIND=basic
-        export L1_RPC_URL=http://88.99.30.186:8545
-        export L1_BEACON_URL=http://88.99.30.186:3500
+        export L1_RPC_URL=http://65.108.230.142:8545
+        export L1_BEACON_URL=http://65.108.230.142:3500
 
         # Ensure to replace --p2p.static with the sequencer's address.
         # Note: p2p is enabled for unsafe block.
