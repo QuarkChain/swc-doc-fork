@@ -37,5 +37,5 @@
 
 ## Others
 
-* [Join our Discord](others/join-our-discord.md)
+* [Links](others/links.md)
 * [Whitepaper](others/whitepaper.md)
